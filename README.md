@@ -1,72 +1,79 @@
 # Hi there, I'm Abdullah Ajmal 👋
 
-I’m an Electronics and Communication Engineering undergraduate at MNNIT Allahabad, passionate about building practical solutions at the intersection of **IoT, embedded systems, and telecommunications**. I enjoy taking projects from concept to deployment and thrive in collaborative environments that demand rapid prototyping and innovative problem-solving.
+I’m an Electronics and Communication Engineering undergraduate at **MNNIT Allahabad**, specializing in **Digital System Design (RTL)**, **Embedded Firmware**, and **Mixed-Signal PCB Design**.
 
-<!-- Social Badges -->
+I am transitioning from system-level integration to low-level hardware engineering, with a focus on solving complex problems in the semiconductor and embedded domains.
+
 <p align="left">
   <a href="https://www.linkedin.com/in/abdullahajmaldxb/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-</p>
-
-![Abdullah's GitHub stats](https://github-readme-stats.vercel.app/api?username=AbdullahDxB&show_icons=true&theme=tokyonight&hide=issues,prs)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdullahDxB&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## 🔧 My Tech Stack
-
-Here are some of the key technologies and tools I work with:
-
-<p align="left">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino"/>
-  <img src="https://img.shields.io/badge/Espressif-E7332E?style=for-the-badge&logo=Espressif&logoColor=white" alt="ESP8266/ESP32"/>
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-  <img src="https://img.shields.io/badge/Altium-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white" alt="Altium Designer"/>
-</p>
-
----
-
-## 🚀 Featured Projects
-
-Here are a few of my key projects. You can find more in my repositories.
-
-### 1. 🏠 [IoT Smart Home Automation System](https://github.com/AbdullahDxB/HomeAutomation)
-
-A comprehensive smart home solution to automate environmental controls and enhance security, featuring a real-time web interface and Google Home voice control.
-
-* **Impact:** Reduced manual intervention by **50%** and was adopted by **50+ users** during on-campus demos.
-* **Tech:** ESP8266, RFID, Google Home API, C/C++, Arduino IDE.
-
-### 2. 🤖 [Long-Range Remote Control Bot](https://github.com/AbdullahDxB/RemoteControlCar)
-
-A robust remote-controlled robot built for university robotics competitions, achieving a Top 5 Finalist position.
-
-* **Impact:** Engineered a stable RF link with a **500m range** and sub-second response time. Increased system reliability to perform **30+ continuous demo runs** without failure.
-* **Tech:** Arduino, RF Transceivers, Embedded C.
-
----
-
-## ⚡ My Interests
-
-I am always exploring new technologies and am particularly interested in:
-
-* 5G Networks and their applications
-* IoT for Smart Cities
-* Embedded Systems and Firmware Development
-* Next-Generation Communication Networks
-
----
-
-## 📨 Get In Touch
-
-<p align="left">
   <a href="mailto:abdullah.ajmalece@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
   </a>
-  <a href="https://www.linkedin.com/in/abdullahajmaldxb/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
+</p>
+
+---
+
+## 🛠️ Hardware Engineering Stack
+
+**Core Competencies:**
+<p align="left">
+  <img src="https://img.shields.io/badge/Verilog-B02927?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/>
+  <img src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white" alt="Altium"/>
+  <img src="https://img.shields.io/badge/Embedded_C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="Embedded C"/>
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
+  <img src="https://img.shields.io/badge/Vivado-FF0000?style=for-the-badge&logo=xilinx&logoColor=white" alt="Vivado"/>
+</p>
+
+---
+
+## 🚧 Current Engineering Sprint (Dec 2025 - Jan 2026)
+
+I am currently undergoing an intensive **Hardware Design Cycle**, focusing on bridging the gap between schematic design and physical layout, and advancing from combinational to sequential logic design.
+
+| Project Focus | Tooling | Status |
+| :--- | :--- | :--- |
+| **RTL Design & Verification** | Xilinx Vivado, Verilog | 🟡 *Building Core Modules (Counters/FSMs)* |
+| **Custom PCB Development** | Altium Designer | 🟡 *Schematic Complete, Layout in Progress* |
+| **Bare Metal Firmware** | STM32, ARM Cortex | 🔴 *Planned* |
+
+---
+
+## 🚀 Engineering Projects
+
+### 1. ⚡ [Custom Arduino-Compatible PCB](https://github.com/AbdullahDxB/Custom-Arduino-PCB)
+**Objective:** Designing a custom microcontroller development board to understand signal integrity and power plane management.
+* **EDA Tool:** Altium Designer.
+* **Scope:** Schematic capture, BOM management, and 2-Layer PCB Layout.
+* **Status:** Schematic captured; Layout in progress.
+
+### 2. 📊 [Verilog RTL Journey](https://github.com/AbdullahDxB/Verilog-Journey)
+**Objective:** Implementation and Verification of Digital Logic circuits.
+* **Engineering:** Writing synthesizable Verilog for sequential logic (Counters, FSMs) and validating functionality via Testbenches in Vivado.
+* **Current Focus:** Sequential Logic and Finite State Machines.
+
+### 3. 📡 [RF-Based Remote Control Protocol](https://github.com/AbdullahDxB/RemoteControlCar)
+**Objective:** Developed a low-latency communication protocol for robotics control.
+* **Engineering:** Optimized RF transmission logic to achieve **500m stable range** with sub-second latency.
+* **Hardware:** 8-bit Microcontroller architecture, RF Transceivers.
+
+### 4. 🏠 [Distributed IoT Automation Network](https://github.com/AbdullahDxB/HomeAutomation)
+**Objective:** Implemented a networked control system for environmental monitoring.
+* **Engineering:** Integrated hardware interrupts and UART communication for real-time sensor data processing.
+* **Impact:** Deployed for 50+ users during campus beta testing.
+
+---
+
+## ⚡ Technical Interests
+
+* **VLSI Design:** RTL Design, Logic Synthesis, and Verification.
+* **Embedded Systems:** Bare-metal programming and RTOS.
+* **PCB Design:** High-speed signal routing and EMI/EMC considerations.
+
+---
+
+<p align="left">
+<img src="https://github-readme-stats.vercel.app/api?username=AbdullahDxB&show_icons=true&theme=tokyonight&hide=issues,prs" alt="Stats" />
 </p>
