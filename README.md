@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=1000&color=0077B5&center=true&vCenter=true&width=800&lines=Abdullah+Ajmal;Embedded+Systems;DSP;PCB+Design;Digital+Electronics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=1000&color=0077B5&center=true&vCenter=true&width=800&lines=Abdullah+Ajmal;Embedded+Systems;RTL+Design;DSP;Digital+Electronics" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <b>Electronics and Communication Engineering Undergraduate @ MNNIT Allahabad</b><br>
-  Passionate about building practical hardware solutions from concept to deployment. I specialize in the intersection of IoT, embedded systems, and digital electronics, thriving in environments that demand rapid prototyping and innovative problem-solving.
+  Passionate about RTL design, digital signal processing, and embedded systems. I specialize in building robust, performant hardware architectures and integrating them with low-level software, thriving in environments that demand technical depth and precision.
 </p>
 
 <p align="center">
@@ -22,16 +22,14 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Verilog-00599C?style=for-the-badge&logo=siemens&logoColor=white" alt="Verilog"/>
+  <img src="https://img.shields.io/badge/SystemVerilog-00599C?style=for-the-badge&logo=siemens&logoColor=white" alt="SystemVerilog"/>
   <br>
   <img src="https://img.shields.io/badge/ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="ARM"/>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
   <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Jetson"/>
-  <img src="https://img.shields.io/badge/Espressif-E7332E?style=for-the-badge&logo=Espressif&logoColor=white" alt="ESP8266/ESP32"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/Vivado-D15112?style=for-the-badge&logo=xilinx&logoColor=white" alt="Vivado"/>
   <br>
-  <img src="https://img.shields.io/badge/Altium-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white" alt="Altium Designer"/>
   <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
 </p>
 
@@ -39,29 +37,33 @@
 
 ## Featured Projects
 
+### [Parameterized AXI4-Stream Switch Core](https://github.com/AbdullahDxB/AXI4-Stream-Switch-Core)
+Designed an N x M routing switch for Network-on-Chip (NoC) interconnects.
+* **Focus:** RTL Design, Round-Robin Arbitration, Backpressure handling (AXI4-Stream), and SystemVerilog Verification.
+* **Tech:** SystemVerilog, Vivado, Constrained Random Verification.
+
 ### [Touchless HCI Media Control — Bharat AI-SoC Student Challenge](https://github.com/AbdullahDxB/Bharat-AI-SoC-Touchless-HCI/)
-Developing an advanced touchless media control interface utilizing hand gesture recognition. 
-* **Focus:** Edge AI, real-time signal processing, and hardware-software integration.
-* **Tech:** NVIDIA Jetson, C/C++, Computer Vision.
+Architected a low-latency gesture recognition pipeline for edge devices.
+* **Focus:** Hardware-Software Integration, Computer Vision, Edge AI.
+* **Tech:** NVIDIA Jetson, Python, OpenCV, ARM-based pipeline optimization.
 
-### [IoT Smart Home Automation System](https://github.com/AbdullahDxB/HomeAutomation)
-A comprehensive smart home solution to automate environmental controls and enhance security, featuring a real-time web interface and Google Home voice control.
-* **Impact:** Reduced manual intervention by **50%** and was adopted by **50+ users** during on-campus deployments.
-* **Tech:** ESP8266, RFID, Google Home API, C/C++, Arduino IDE.
+### [Pipelined FIR/IIR Digital Filter](https://github.com/AbdullahDxB/Digital-Signal-Processing-Filters)
+Implemented and synthesized high-throughput pipelined filters for FPGA deployment.
+* **Focus:** DSP Algorithm optimization, Retiming, Critical path reduction.
+* **Tech:** Verilog, Vivado, MATLAB (Coefficient analysis).
 
-### [Long-Range Remote Control Bot](https://github.com/AbdullahDxB/RemoteControlCar)
-A robust remote-controlled robot engineered for university robotics competitions, achieving a Top 5 Finalist position.
-* **Impact:** Engineered a stable RF link with a **500m range** and sub-second response time. Ensured system reliability for **30+ continuous demo runs** without hardware failure.
-* **Tech:** Arduino, RF Transceivers, Embedded C.
+### [STM32-Based Audio Equalizer](https://github.com/AbdullahDxB/ARM-Audio-Equalizer)
+Real-time 3-band audio equalization using an ARM Cortex-M architecture.
+* **Focus:** DMA (Direct Memory Access), ISRs, IIR Biquad filter implementation.
+* **Tech:** STM32, Embedded C, Keil µVision.
 
 ---
 
 ## Current Focus & Interests
 
-* **Embedded Systems:** Firmware architecture, microcontrollers (ARM, STM32, ESP32), and edge computing devices.
-* **PCB Design:** Schematic capture and board layout utilizing Altium Designer for custom hardware solutions.
-* **Digital Signal Processing (DSP):** Algorithm development and optimization for audio processing and signal conditioning.
-* **Hardware Description:** Designing and simulating digital logic circuits using Verilog.
+* **RTL Design & Verification:** Developing scalable digital logic, arbitration logic, and SystemVerilog testbenches.
+* **Computer Architecture:** Focus on NoC fabrics, interconnects, and ARM-based SoC architectures.
+* **Digital Signal Processing (DSP):** Developing efficient filtering algorithms for embedded hardware.
+* **Embedded Systems:** Firmware architecture and low-level peripheral programming.
 
 ---
-
